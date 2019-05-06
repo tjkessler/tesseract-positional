@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # tesseract_positional/cmd_line.py
-# v.0.1.0
+# v.0.1.1
 # Developed in 2019 by Travis Kessler <travis.j.kessler@gmail.com>
 #
 # Command line tool for running tesseract_positional

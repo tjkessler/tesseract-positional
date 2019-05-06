@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='tesseract_positional',
-    version='0.1.0',
+    version='0.1.1',
     description='Tool to save positional OCR data to a text file',
     url='http://github.com/tjkessler/tesseract_positional',
     author='Travis Kessler',
@@ -12,7 +12,7 @@ setup(
     install_requires=['pytesseract', 'Pillow'],
     entry_points={
         'console_scripts': [
-            'tesseract_positional=tesseract_positional.cmd_line:main'
+            'tesseract-positional=tesseract_positional.cmd_line:main'
         ]
     },
     zip_safe=False
