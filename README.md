@@ -18,8 +18,9 @@ $ pip install tesseract-positional
 Installation via cloned repository:
 
 ```
+$ git clone https://github.com/tjkessler/tesseract-positional
 $ cd tesseract-positional
-$ python setup.py install
+$ pip install .
 ```
 
 Additional dependencies (pytesseract, Pillow) will be installed during Tesseract-Positional's installation.
